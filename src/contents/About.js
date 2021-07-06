@@ -5,45 +5,67 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">About Me</h1>
-            <div className="hr_line line2 glass"><div className="inner2"></div></div>
-            <h2 className="abouthead">Vikalp <mark className="mark2">Kaushik</mark></h2>
-            <p>Full Stack Developer</p>
-            <br></br>
-            <p className="p10">I started my journey in the world of computers from an young age,
-            now I’m 21 years old, Pursuing my Computer Science and Engineering Degree in
-            GNDEC Ludhiana.  Web development is my center of interest, i always
-            love the idea of cross-platform development, 1-n one code base deploy into almost
-            any platform, which web technology like Javascript enables me to do. I also like
-            creating Interactive UI components for better UX  and share those design and codes
-            to the world through Github and Instagram.
-            </p>
-            <div className="Edu">
-                <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
+                <h1 className="subtopic">About Me</h1>
+                <div className="hr_line line2 glass">
+                    <div className="inner2"></div>
+                </div>
+                <h3 className="abouthead">Gopisetti Madhu Babu</h3>
+                <p>Full Stack Developer  <mark>web &amp; app</mark></p>
+                <br></br>
+                <p className="p0">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    Education
+                </p>
+                <div className="vr_line glass">
+                    <div className="vr_inner inn1"></div>
+                    <div className="vr_inner inn2"></div>
+                    <div className="vr_inner inn3"></div>
+                </div>
+                <h4>Bachelor of technology</h4>
+                <p className="p1">Vishnu Institute of technology</p>
+                <p className="p1">
+                    <i class="fa fa-calendar i2"></i>
+                    May 2018 - 2022
+                </p>
+                <p className="p1">75%</p>
+                <h4>Higher secondary school</h4>
+                <p className="p1">Aditya Junior college</p>
+                <p className="p1">
+                    <i class="fa fa-calendar i2"></i>
+                    May 2018
+                </p>
+                <p className="p1">90%</p>
+                <h4>Secondary school</h4>
+                <p className="p1">Narayana E-Techno school</p>
+                <p className="p1">
+                    <i class="fa fa-calendar i2"></i>
+                    May 2016
+                </p>
+                <p className="p1">90%</p>
+                <p className="languages">
+                    <i class="fa fa-language" aria-hidden="true"></i>
+                    Languages
+                </p>
+                <h4 className="languagestext">English</h4>
+                <h4 className="languagestext">Telugu</h4>
+                <h4 className="languagestext">Hindi</h4>
+                <h3 className="sk_head">Skills</h3>
+                <div className="sk glass">REACT JS</div>
+                <div className="sk s2 glass">REACT NATIVE</div>
+                <div className="sk s3 glass">NODE JS</div>
+                <div className="sk s4 glass">MONOG DB</div>
+                <div className="sk s5 glass">MY SQL</div>
+                <div className="sk s6 glass">SQLITE</div>
+                <div className="sk s7 glass">ARDUINO</div>
+                <div className="sk s8 glass">FIREBASE</div>
+                <div className="sk s9 glass">C</div>
+                <div className="sk s10 glass">C++</div>
+                <div className="sk s11 glass">C#</div>
+                <div className="sk s12 glass">JAVA</div>
+                <div className="sk s13 glass">PYTHON</div>
+                <div className="sk s14 glass">JAVASCRIPT (ES6)</div>
             </div>
-            <h3>Education</h3>
-            <div className="vr_line glass">
-                <div className="vr_inner inn1"></div>
-                <div className="vr_inner inn2"></div>
-            </div>
-            <h4>B.Tech in CSE</h4>
-            <p className="p1">GNDEC, Ludhiana</p>
-            <p className="p1"><i class="fa fa-calendar i2"></i>May 2018 - 2022</p>
-            <h4>High School</h4>
-            <p className="p1">St. Farid Public School, MGG</p>
-            <p className="p1"><i class="fa fa-calendar i2"></i>May 2017</p>
-
-            <h3 class="sk_head">Skills</h3>
-            <div class="sk glass">HTML</div>
-            <div class="sk s2 glass">CSS</div>
-            <div class="sk s3 glass">JavaScript</div>
-            <div class="sk s4 glass">React</div>
-            <div class="sk s5 glass">Node</div>
-            <div class="sk s6 glass">Python</div>
-            </div>
-            )
-        }
+        )
     }
-    
+}    
 export default About
-    
