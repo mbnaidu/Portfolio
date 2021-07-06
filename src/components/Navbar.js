@@ -32,7 +32,7 @@ class Navbar extends Component {
                 </h6>
                 <ul>
                     <Navitem item="About" tolink="/"  activec={this.activeitem}></Navitem>
-                    <Navitem item="Portfolio" tolink="/portfolio"  activec={this.activeitem}></Navitem>
+                    <Navitem item="Projects" tolink="/portfolio"  activec={this.activeitem}></Navitem>
                     <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
                 </ul>
             </nav>

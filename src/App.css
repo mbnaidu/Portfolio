@@ -50,6 +50,7 @@ nav {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
+    overflow-y: scroll;
 }
 
 .home {
@@ -357,7 +358,43 @@ mark {
     top: 58%;
     left: 53%;
 }
-
+.port5 {
+    top: 98%;
+    left: 10%;
+}
+.port6 {
+    top: 98%;
+    left: 53%;
+}
+.port7 {
+    top: 138%;
+    left: 10%;
+}
+.port8 {
+    top: 138%;
+    left: 53%;
+}
+.port9 {
+    top: 178%;
+    left: 10%;
+}
+.port10 {
+    top: 178%;
+    left: 53%;
+}
+.port11 {
+    top: 218%;
+    left: 10%;
+}
+.port12 {
+    top: 218%;
+    left: 53%;
+}
+.videoheader {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+}
 .po1 {
     width: 96%;
     height: 93%;
