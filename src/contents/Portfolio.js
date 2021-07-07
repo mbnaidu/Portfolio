@@ -5,7 +5,8 @@ import project3 from '../img/project3.png';
 import project4 from '../img/project4.png';
 import pigeon from '../Videos/Pigeon.mp4';
 import covid from '../Videos/covid.mp4';
-import dental from '../Videos/dental.mp4'
+import dental from '../Videos/dental.mp4';
+import exam from '../Videos/exam.mp4';
 
 
 class Portfolio extends Component {
@@ -35,9 +36,10 @@ class Portfolio extends Component {
                     </video>
                 </div>
                 <div class="port_out port4 glass">
-                    <a href="https://github.com/vikalp2502/Tribute-to-msd">
-                        <img src={project4} className="po1"></img>
-                    </a>
+                    <p className="videoheader">EXAM</p>
+                    <video width="440" height="205" controls>
+                        <source src={exam} type="video/mp4"/>
+                    </video>
                 </div>
                 <div class="port_out port5 glass">
                     <a href="https://github.com/vikalp2502/Tribute-to-msd">
