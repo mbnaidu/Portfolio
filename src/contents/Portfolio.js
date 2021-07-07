@@ -7,6 +7,7 @@ import pigeon from '../Videos/Pigeon.mp4';
 import covid from '../Videos/covid.mp4';
 import dental from '../Videos/dental.mp4';
 import exam from '../Videos/exam.mp4';
+import mydnapedia from '../Videos/mydnapedia.mp4';
 
 
 class Portfolio extends Component {
@@ -42,9 +43,10 @@ class Portfolio extends Component {
                     </video>
                 </div>
                 <div class="port_out port5 glass">
-                    <a href="https://github.com/vikalp2502/Tribute-to-msd">
-                        <img src={project4} className="po1"></img>
-                    </a>
+                    <p className="videoheader">MYDNAPEDIA</p>
+                    <video width="440" height="205" controls>
+                        <source src={mydnapedia} type="video/mp4"/>
+                    </video>
                 </div>
                 <div class="port_out port6 glass">
                     <a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser">
