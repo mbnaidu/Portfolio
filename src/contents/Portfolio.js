@@ -3,8 +3,10 @@ import project1 from '../img/project1.png';
 import project2 from '../img/project2.png';
 import project3 from '../img/project3.png';
 import project4 from '../img/project4.png';
-import pigeon from '../Videos/Pigeon.mp4'
-import kohli from '../Videos/m.mp4'
+import pigeon from '../Videos/Pigeon.mp4';
+import covid from '../Videos/covid.mp4';
+import dental from '../Videos/dental.mp4'
+
 
 class Portfolio extends Component {
     render() {
@@ -21,14 +23,16 @@ class Portfolio extends Component {
                     </video>
                 </div>
                 <div class="port_out port2 glass">
-                    <video width="440" height="255" controls>
-                        <source src={kohli} type="video/mp4"/>
+                    <p className="videoheader">COVID</p>
+                    <video width="440" height="205" controls>
+                        <source src={covid} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port3 glass">
-                    <a href="https://github.com/vikalp2502/To-do-list-v2">
-                        <img src={project3} className="po1"></img>
-                    </a>
+                    <p className="videoheader">DENTAL</p>
+                    <video width="440" height="205" controls>
+                        <source src={dental} type="video/mp4"/>
+                    </video>
                 </div>
                 <div class="port_out port4 glass">
                     <a href="https://github.com/vikalp2502/Tribute-to-msd">
