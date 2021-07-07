@@ -9,6 +9,7 @@ import dental from '../Videos/dental.mp4';
 import exam from '../Videos/exam.mp4';
 import mydnapedia from '../Videos/mydnapedia.mp4';
 import community from '../Videos/community.mp4';
+import rangoli from '../Videos/rangoli.mp4';
 
 
 class Portfolio extends Component {
@@ -56,9 +57,10 @@ class Portfolio extends Component {
                     </video>
                 </div>
                 <div class="port_out port7 glass">
-                    <a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page">
-                        <img src={project2} className="po1"></img>
-                    </a>
+                    <p className="videoheader">RANGOLI 🤖</p>
+                    <video width="440" height="205" controls>
+                        <source src={rangoli} type="video/mp4"/>
+                    </video>
                 </div>
                 <div class="port_out port8 glass">
                     <a href="https://github.com/vikalp2502/To-do-list-v2">
