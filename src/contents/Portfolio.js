@@ -8,6 +8,7 @@ import covid from '../Videos/covid.mp4';
 import dental from '../Videos/dental.mp4';
 import exam from '../Videos/exam.mp4';
 import mydnapedia from '../Videos/mydnapedia.mp4';
+import community from '../Videos/community.mp4';
 
 
 class Portfolio extends Component {
@@ -19,39 +20,40 @@ class Portfolio extends Component {
                     <div className="inner2 inner3"></div>
                 </div>
                 <div class="port_out port1 glass">
-                    <p className="videoheader">PIGEON</p>
+                    <p className="videoheader">PIGEON 🕊️</p>
                     <video width="440" height="205" controls>
                         <source src={pigeon} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port2 glass">
-                    <p className="videoheader">COVID</p>
+                    <p className="videoheader">COVID 🦠</p>
                     <video width="440" height="205" controls>
                         <source src={covid} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port3 glass">
-                    <p className="videoheader">DENTAL</p>
+                    <p className="videoheader">DENTAL 🦷</p>
                     <video width="440" height="205" controls>
                         <source src={dental} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port4 glass">
-                    <p className="videoheader">EXAM</p>
+                    <p className="videoheader">EXAM 📝</p>
                     <video width="440" height="205" controls>
                         <source src={exam} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port5 glass">
-                    <p className="videoheader">MYDNAPEDIA</p>
+                    <p className="videoheader">MYDNAPEDIA 🧬</p>
                     <video width="440" height="205" controls>
                         <source src={mydnapedia} type="video/mp4"/>
                     </video>
                 </div>
                 <div class="port_out port6 glass">
-                    <a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser">
-                        <img src={project1} className="po1"></img>
-                    </a>
+                    <p className="videoheader">COMMUNITY 🧑‍🤝‍🧑</p>
+                    <video width="440" height="205" controls>
+                        <source src={community} type="video/mp4"/>
+                    </video>
                 </div>
                 <div class="port_out port7 glass">
                     <a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page">
