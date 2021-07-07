@@ -479,7 +479,7 @@ mark {
     height: 25px;
     padding: 12px 0;
     position: absolute;
-    top: 54%;
+    top: 64%;
     left: 22%;
     color: black;
     font-size: 22px;
@@ -487,7 +487,7 @@ mark {
     cursor: pointer;
 }
 .back3:hover {
-    background-color: rgba(245, 108, 109, 0.5);
+    background-color: #ff758c;
 }
 .back4 {
     left: 56%;

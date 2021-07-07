@@ -10,6 +10,8 @@ import exam from '../Videos/exam.mp4';
 import mydnapedia from '../Videos/mydnapedia.mp4';
 import community from '../Videos/community.mp4';
 import rangoli from '../Videos/rangoli.mp4';
+import myntra from '../Videos/myntra.mp4';
+
 
 
 class Portfolio extends Component {
@@ -63,30 +65,11 @@ class Portfolio extends Component {
                     </video>
                 </div>
                 <div class="port_out port8 glass">
-                    <a href="https://github.com/vikalp2502/To-do-list-v2">
-                        <img src={project3} className="po1"></img>
-                    </a>
+                    <p className="videoheader">MYNTRA 👕</p>
+                    <video width="440" height="205" controls>
+                        <source src={myntra} type="video/mp4"/>
+                    </video>
                 </div>
-                <div class="port_out port9 glass">
-                    <a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser">
-                        <img src={project1} className="po1"></img>
-                    </a>
-                </div>
-                <div class="port_out port10 glass">
-                    <a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page">
-                        <img src={project2} className="po1"></img>
-                    </a>
-                </div>
-                <div class="port_out port11 glass">
-                    <a href="https://github.com/vikalp2502/To-do-list-v2">
-                        <img src={project3} className="po1"></img>
-                    </a>
-                </div>
-                <div class="port_out port12 glass">
-                    <a href="https://github.com/vikalp2502/Tribute-to-msd">
-                        <img src={project4} className="po1"></img>
-                    </a>
-                </div> 
             </div>
             )
         }
