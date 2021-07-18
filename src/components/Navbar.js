@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navitem from './Navitem';
 import profilepic from '../img/profile_photo.jpg';
 import ReactTypingEffect from 'react-typing-effect';
+import { Grid } from '@material-ui/core';
 
 class Navbar extends Component {
     constructor(props)
@@ -22,7 +23,8 @@ class Navbar extends Component {
     };
     render() {
         return (
-            <nav className="glass">
+            <div className="m">
+            <nav className="glass1">
                 <img src={profilepic} className="profilepic"></img>
                 <h2>
                     Madhu Babu
@@ -36,6 +38,7 @@ class Navbar extends Component {
                     <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
                 </ul>
             </nav>
+           </div>
             )
         }
     }

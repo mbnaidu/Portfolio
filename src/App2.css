@@ -10,28 +10,19 @@
     margin: 0;
     padding: 0;
 }
-body {
+
+.body {
     font-family: "Raleway";
     background: linear-gradient(#ff758c, #764ba2);
     height: fit-content;
-    background-repeat: no-repeat;
+    background-repeat: none;
+    background-size: cover;
 }
 .App {
     display: flex;
     width: 100vw;
-    min-height: 100vh;
-}
-.glass1 {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    width: fit-content;
     height: fit-content;
-    min-height: 40rem;
-    width: 15rem;
-    max-width: 15rem;
+    overflow: hidden;
 }
 .glass {
     background: rgba(255, 255, 255, 0.25);
@@ -39,80 +30,17 @@ body {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    width: fit-content;
 }
 nav {
     width: 20%;
     height: 90%;
-    position: relative;
     top: 4%;
-
+    left: 4%;
     padding: 0;
     line-height: 1;
     text-align: center;
 }
-.condiv {
-    width: 60%;
-    height: 90%;
-    top: 4%;
-    left: 28%;
-    line-height: 1;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-.condiv3 {
-    width: 90%;
-    min-height: 40rem;
-    height: fit-content;
-    top: 4%;
-    left: 28%;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-}
-.condiv2 {
-    width: 100%;
-    height: 90%;
-    min-height: 35rem;
-    top: 4%;
-    /* left: 28%; */
-    line-height: 1;
-    /* padding-left: 10px; */
-    padding-right: 10px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    overflow-y: scroll;
-    position: relative;
-}
-.condiv1 {
-    width: 60%;
-    height: fit-content;
-    min-height: 50rem;
-    top: 4%;
-    left: 28%;
-    line-height: 1;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-}
+
 .home {
     display: flex;
     justify-content: center;
@@ -188,7 +116,7 @@ h4 {
     font-size: 1rem;
 }
 .p0 {
-    margin-top: 40px;
+    margin-top: -3%;
     margin-left: 50px;
     font-size: 1.5rem;
     font-weight: bolder;
@@ -201,25 +129,15 @@ h4 {
     font-weight: bolder;
     color: rgb(8, 8, 8);
 }
-.skglass {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-}
-.about {
-    /* height: 100%; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.sk_head {
+    position: absolute;
+    top: 18%;
+    left: 48%;
 }
 .sk {
-    position: relative;
     top: 30%;
     left: 58%;
-
+    display: inline-block;
     width: 15%;
     height: 15px;
     font-weight: bolder;
@@ -227,6 +145,15 @@ h4 {
     text-align: center;
     background-color: "white";
     padding: 10px;
+}
+.sk1 {
+    display: inline-block;
+    width: 10rem;
+    height: 2rem;
+    font-weight: bolder;
+    color: rgba(245, 108, 109, 1);
+    text-align: center;
+    background-color: "white";
 }
 .sk:hover {
     background-color: #ffffff80;
@@ -315,10 +242,6 @@ mark {
         rgba(245, 108, 109, 1) 100%
     );
 }
-.hr_line2 {
-    width: 60px;
-    height: 10px;
-}
 .line2 {
     margin: 1px 25px;
     height: 5px;
@@ -331,11 +254,12 @@ mark {
     margin: 7px;
     margin-left: 15px;
 }
-/* .vr_line {
+.vr_line {
     width: 10px;
-    height: 360px;
+    height: 20rem;
     position: absolute;
-    
+    margin-left: 6%;
+    margin-top: 0%;
 }
 .vr_inner {
     width: 10px;
@@ -348,14 +272,14 @@ mark {
     );
 }
 .inn1 {
-    margin-top: 45px;
+    margin-top: 1rem;
 }
 .inn2 {
-    margin-top: 95px;
+    margin-top: 7rem;
 }
 .inn3 {
-    margin-top: 105px;
-} */
+    margin-top: 6rem;
+}
 .languagestext {
     color: rgb(255, 255, 255);
 }
@@ -406,9 +330,10 @@ mark {
     background-color: #ffffff80;
     font-weight: bolder;
 }
-.port_outportfolio {
-    /* position: absolute; */
-    height: "fitContent";
+.port_out {
+    position: absolute;
+    width: 38%;
+    height: 30%;
 }
 .port_out:hover {
     background-color: #ffffff80;
@@ -472,7 +397,11 @@ mark {
     margin: 2% 2%;
     border-radius: 10px;
 }
-
+.line3 {
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}
 .inner3 {
     margin: 3px 15px;
     background: rgba(245, 108, 109, 1);
@@ -481,6 +410,7 @@ mark {
     border-radius: 5px;
 }
 .con_out {
+    position: absolute;
     width: 88%;
     top: 13%;
     left: 6%;
@@ -526,19 +456,6 @@ mark {
     background-color: #ffffffbf;
     border-radius: 10px;
 }
-.back3 {
-    width: 210px;
-    height: 25px;
-    padding: 12px 0;
-
-    color: rgb(32, 31, 31);
-    font-size: 22px;
-    text-align: center;
-    cursor: pointer;
-}
-.back3:hover {
-    background-color: rgba(245, 108, 109, 0.5);
-}
 
 /* @media all and (max-width: 450px) {
     :root {
@@ -547,7 +464,7 @@ mark {
         --typing-font: 1.4rem;
     }
     body {
-        height: 1400px;
+        height: 1500px;
     }
     .App {
         flex-direction: column;
@@ -685,46 +602,3 @@ mark {
         margin: 15px 10px;
     }
 } */
-/* new css  */
-.glassportfolio {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-
-    height: fit-content;
-}
-.condivportfolio {
-    width: 100%;
-    height: 90%;
-    min-height: 35rem;
-    top: 14%;
-    /* left: 28%; */
-    line-height: 1;
-    /* padding-left: 10px; */
-    padding-right: 10px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0px 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    overflow-y: scroll;
-    position: relative;
-}
-.m {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.languages {
-    margin-top: 40px;
-    margin-left: 50px;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    color: rgb(8, 8, 8);
-}
-.languagestext {
-    color: rgb(255, 255, 255);
-}
